@@ -17,7 +17,7 @@ function App() {
 
       const formData = new FormData()
       formData.append("file", file)
-      await axios.post("http://localhost:3000/v1/file", formData)
+      await axios.post("https://excel-file-upload-download-backend.onrender.com/v1/file", formData)
 
       file_list()
 
@@ -34,7 +34,7 @@ function App() {
 
 
     try {
-      let result = await fetch("http://localhost:3000/v1/getfile")
+      let result = await fetch("https://excel-file-upload-download-backend.onrender.com/v1/getfile")
 
       result = await result.json()
 

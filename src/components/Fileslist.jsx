@@ -6,7 +6,7 @@ export default function Fileslist({ list }) {
     const get_file = async (e) => {
 
 
-        let downloadExcelResponse = await fetch("http://localhost:3000/v1/onefile", {
+        let downloadExcelResponse = await fetch("https://excel-file-upload-download-backend.onrender.com/v1/onefile", {
             method: "post",
             body: JSON.stringify({ id: e.target.id }),
             headers: {
