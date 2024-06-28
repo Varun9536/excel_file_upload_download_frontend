@@ -1,0 +1,27 @@
+.maincontainer
+{
+  display: flex;
+
+
+}
+
+
+.upload
+{
+  
+  width: 20%;
+  height: 590px;
+  background: #ffb380;
+  
+}
+
+.download
+{
+ 
+  width: 80%;
+  /* text-align: center; */
+  height: 590px;
+  padding: 0px 20px;
+  background: #e699ff;
+}
+
